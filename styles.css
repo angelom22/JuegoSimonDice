@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #000;
+    background: #dedede;
     display: flex;
     align-items: center;
     flex-flow: column;
@@ -9,7 +9,7 @@ body {
   
   .details {
     height: 10vh;
-    background-color: #2c3e50;
+    background-color: #5283b8;
     display: flex;
     width: 100vw;
     justify-content: space-around;
@@ -100,14 +100,14 @@ body {
   }
   
   #level::before{
-    content: "Level: ";
+    content: "Nivel: ";
   }
   #speed::before{
-    content: "Speed: ";
+    content: "Velocidad: ";
   }
   
   #countdown::before{
-    content: 'Timer: ';
+    content: 'Contador: ';
   }
   #countdown::after{
     content: ' s';
